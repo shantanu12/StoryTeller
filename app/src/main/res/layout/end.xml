@@ -10,7 +10,7 @@
         android:layout_height="300dp"
         android:id="@+id/imageView"
         android:layout_gravity="center_horizontal"
-        android:src="@drawable/frame1"
+        android:src="@drawable/end"
         android:scaleType="centerCrop"
         android:layout_weight="0.07" />
 
@@ -18,7 +18,7 @@
         android:layout_width="350dp"
         android:layout_height="60dp"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="One day, an ant was searching for some water after a long morning of work."
+        android:text="Moral of the Story: One good turn deserves another."
         android:id="@+id/textView"
         android:layout_weight="0.90"
         android:textSize="30dp"
@@ -32,5 +32,6 @@
         android:fontFamily="sans-serif-light"
         android:typeface="sans"
         android:layout_gravity="center"
-        android:gravity="center"/>
+        android:gravity="center"
+        android:textStyle="bold" />
 </LinearLayout>
