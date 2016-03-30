@@ -3,29 +3,34 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:weightSum="1"
-    android:background="#e5d9c0">
+    android:background="#ffffff">
 
     <ImageView
-        android:layout_width="434dp"
-        android:layout_height="354dp"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
         android:id="@+id/imageView"
         android:layout_gravity="center_horizontal"
-        android:src="@drawable/frame1" />
+        android:src="@drawable/frame1"
+        android:scaleType="centerCrop"
+        android:layout_weight="0.07" />
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="41dp"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="One hot afternoon, an ant was searching for some water after a long morning of work."
+        android:text="One day, an ant was searching for some water after a long morning of work."
         android:id="@+id/textView"
         android:layout_weight="0.90"
         android:textSize="30dp"
         android:textColor="#000000"
         android:textAlignment="center"
         android:textIsSelectable="false"
-        android:typeface="serif"
         android:visibility="visible"
         android:capitalize="words"
         android:clickable="false"
-        android:contextClickable="false" />
+        android:contextClickable="false"
+        android:fontFamily="sans-serif-light"
+        android:typeface="sans"
+        android:layout_gravity="center"
+        android:gravity="center"/>
 </LinearLayout>
