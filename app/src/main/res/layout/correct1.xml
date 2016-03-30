@@ -14,15 +14,19 @@
         android:textSize="50dp"
         android:paddingTop="40dp"
         android:paddingBottom="15dp"
-        android:typeface="serif"
-        android:textAlignment="center" />
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-light"
+        android:typeface="sans"
+        android:layout_gravity="center"
+        android:gravity="center" />
 
     <ImageView
-        android:layout_width="285dp"
+        android:layout_width="match_parent"
         android:layout_height="357dp"
         android:id="@+id/imageView3"
-        android:layout_gravity="center_horizontal"
-        android:src="@drawable/star_gold"
-        android:textAlignment="center" />
+        android:src="@drawable/happy_star"
+        android:textAlignment="center"
+        android:scaleType="centerCrop"
+        android:layout_weight="0.89" />
 
 </LinearLayout>
