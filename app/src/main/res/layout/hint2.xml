@@ -10,7 +10,7 @@
         android:layout_height="212dp"
         android:id="@+id/imageView3"
         android:layout_gravity="center_horizontal"
-        android:src="@drawable/warning"
+        android:src="@drawable/star_gold"
         android:textAlignment="center" />
 
     <TextView
