@@ -19,20 +19,26 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="That was wrong. Try again!"
         android:id="@+id/textView3"
-        android:layout_gravity="center_horizontal"
-        android:typeface="serif"
         android:textSize="28dp"
         android:textColor="#fc0000"
         android:paddingTop="20dp"
         android:paddingBottom="40dp"
-        android:textAlignment="center" />
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-light"
+        android:typeface="sans"
+        android:layout_gravity="center"
+        android:gravity="center"/>
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Hint: Remember, the ant has been working all morning."
         android:id="@+id/textView4"
-        android:layout_gravity="center_horizontal"
-        android:textSize="40dp" />
+        android:textSize="40dp"
+        android:fontFamily="sans-serif-light"
+        android:typeface="sans"
+        android:layout_gravity="center"
+        android:gravity="center"
+        />
 </LinearLayout>
