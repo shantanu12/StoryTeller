@@ -8,7 +8,7 @@
     <ImageView
         android:layout_width="190dp"
         android:layout_height="212dp"
-        android:id="@+id/imageView3"
+        android:id="@+id/explanation2_imageView"
         android:layout_gravity="center_horizontal"
         android:src="@drawable/wrong"/>
 
@@ -17,7 +17,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Well tried, but that was wrong."
-        android:id="@+id/textView3"
+        android:id="@+id/explanation2_textView1"
         android:textSize="28dp"
         android:textColor="#fc0000"
         android:textAlignment="center"
@@ -31,7 +31,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Explanation: While happiness and intelligence are good, it is important to be good to others. Be peaceful!"
-        android:id="@+id/textView4"
+        android:id="@+id/explanation2_textView2"
         android:textSize="33dp"
         android:fontFamily="sans-serif-light"
         android:typeface="sans"

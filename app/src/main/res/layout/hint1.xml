@@ -8,7 +8,7 @@
     <ImageView
         android:layout_width="190dp"
         android:layout_height="212dp"
-        android:id="@+id/imageView3"
+        android:id="@+id/hint1_imageView"
         android:layout_gravity="center_horizontal"
         android:src="@drawable/warning"
         android:textAlignment="center" />
@@ -18,7 +18,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="That was wrong. Try again!"
-        android:id="@+id/textView3"
+        android:id="@+id/hint1_textView1"
         android:textSize="28dp"
         android:textColor="#fc0000"
         android:paddingTop="20dp"
@@ -34,7 +34,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Hint: Remember, the ant has been working all morning."
-        android:id="@+id/textView4"
+        android:id="@+id/hint1_textView2"
         android:textSize="40dp"
         android:fontFamily="sans-serif-light"
         android:typeface="sans"

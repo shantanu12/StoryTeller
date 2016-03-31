@@ -8,7 +8,7 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="300dp"
-        android:id="@+id/imageView"
+        android:id="@+id/frame9_imageView"
         android:layout_gravity="center_horizontal"
         android:src="@drawable/frame9"
         android:scaleType="centerCrop"
@@ -19,7 +19,7 @@
         android:layout_height="60dp"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Guessing what he was about to do, the ant quickly bit him on the heel. Feeling pain, the hunter dropped his net. The dove was quick to fly away to safety."
-        android:id="@+id/textView"
+        android:id="@+id/frame9_textView"
         android:layout_weight="0.90"
         android:textSize="30dp"
         android:textColor="#000000"

@@ -8,7 +8,7 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="300dp"
-        android:id="@+id/imageView"
+        android:id="@+id/frame7_imageView"
         android:layout_gravity="center_horizontal"
         android:src="@drawable/frame7"
         android:scaleType="centerCrop"
@@ -19,7 +19,7 @@
         android:layout_height="60dp"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="The ant moved towards the leaf and climbed up there. Soon it carried her safely to dry ground."
-        android:id="@+id/textView"
+        android:id="@+id/frame7_textView"
         android:layout_weight="0.90"
         android:textSize="30dp"
         android:textColor="#000000"

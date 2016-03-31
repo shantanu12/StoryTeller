@@ -10,7 +10,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="That is correct! Here&apos;s a star!"
-        android:id="@+id/textView4"
+        android:id="@+id/correct1_textView"
         android:textSize="50dp"
         android:paddingTop="40dp"
         android:paddingBottom="15dp"
@@ -23,7 +23,7 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="357dp"
-        android:id="@+id/imageView3"
+        android:id="@+id/correct1_imageView"
         android:src="@drawable/happy_star"
         android:textAlignment="center"
         android:scaleType="centerCrop"

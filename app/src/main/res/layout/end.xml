@@ -8,7 +8,7 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="300dp"
-        android:id="@+id/imageView"
+        android:id="@+id/end_imageView"
         android:layout_gravity="center_horizontal"
         android:src="@drawable/end"
         android:scaleType="centerCrop"
@@ -19,7 +19,7 @@
         android:layout_height="60dp"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Moral of the Story: One good turn deserves another."
-        android:id="@+id/textView"
+        android:id="@+id/end_textView"
         android:layout_weight="0.90"
         android:textSize="30dp"
         android:textColor="#000000"

@@ -8,7 +8,7 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="300dp"
-        android:id="@+id/imageView"
+        android:id="@+id/frame6_imageView"
         android:layout_gravity="center_horizontal"
         android:src="@drawable/frame6"
         android:scaleType="centerCrop"
@@ -19,7 +19,7 @@
         android:layout_height="60dp"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="The dove quickly plucked off a leaf and dropped it into the water near the struggling ant."
-        android:id="@+id/textView"
+        android:id="@+id/frame6_textView"
         android:layout_weight="0.90"
         android:textSize="30dp"
         android:textColor="#000000"
