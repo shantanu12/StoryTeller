@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/appTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/storyteller" />
+
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="140dp"
+        android:text="Welcome back"
+        android:textColor="@android:color/holo_purple"
+        android:textSize="30sp"
+        android:typeface="serif"
+        android:textStyle="italic"
+        android:singleLine="false"
+        android:linksClickable="false" />
+
+    <TextView
+        android:id="@+id/welcomeTextName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="<Placeholder>"
+        android:textColor="@android:color/holo_purple"
+        android:textSize="30sp"
+        android:typeface="serif"
+        android:textStyle="italic"
+        android:singleLine="false"
+        android:linksClickable="false" />
+</LinearLayout>
