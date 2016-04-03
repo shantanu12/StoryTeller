@@ -6,6 +6,7 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.view.ViewPager;
 import android.view.View;
+import android.widget.ImageView;
 
 import java.util.List;
 import java.util.Vector;
@@ -186,7 +187,10 @@ public class AntDoveStoryActivity extends FragmentActivity {
     }
 
     private void endSet() {
+        Bundle data = new Bundle();
+        data.putInt("score", mScore);
         mFragments.add(Fragment.instantiate(this, AntDoveEndFragment.class.getName()));
+        mFragments.add(Fragment.instantiate(this, FinalStarsFragment.class.getName(), data));
         mPager.setAdapter(mPagerAdapter);
     }
 }
