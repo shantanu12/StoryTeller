@@ -12,7 +12,7 @@ import android.util.Log;
 public class SplashActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.splash_screen);
+        setContentView(R.layout.activity_splash);
     }
 
     protected void onResume() {
@@ -37,16 +37,16 @@ public class SplashActivity extends Activity {
 
         public void run() {
             try {
-                Thread.sleep(2000);
+                Thread.sleep(1000);
             } catch (Exception e) {
                 Log.e("Error", e.getMessage());
             }
             if (this.className.equals("Signup")) {
-                Intent intent = new Intent(SplashActivity.this, Signup.class);
+                Intent intent = new Intent(SplashActivity.this, SignupActivity.class);
                 SplashActivity.this.startActivity(intent);
                 SplashActivity.this.finish();
             } else {
-                Intent intent = new Intent(SplashActivity.this, Login.class);
+                Intent intent = new Intent(SplashActivity.this, LoginActivity.class);
                 SplashActivity.this.startActivity(intent);
                 SplashActivity.this.finish();
             }

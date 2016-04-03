@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f7f7f7"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <include layout="@layout/layout_wrong" />
+
+    <TextView
+        android:id="@+id/explanation2_textView2"
+        android:layout_width="350dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="0.86"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:text="@string/explanation2"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="33sp"
+        android:typeface="sans" />
+</LinearLayout>

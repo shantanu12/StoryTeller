@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/stories_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:text="My Stories"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000"
+        android:textSize="@android:dimen/app_icon_size"
+        android:typeface="sans" />
+
+    <ImageButton
+        android:id="@+id/stories_antdove"
+        android:layout_width="190dp"
+        android:layout_height="171dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:onClick="showAntStory"
+        android:scaleType="fitXY"
+        android:src="@drawable/ant_dove" />
+
+    <ImageButton
+        android:id="@+id/stories_pigs"
+        android:layout_width="190dp"
+        android:layout_height="171dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:onClick="showPigStory"
+        android:scaleType="fitXY"
+        android:src="@drawable/little_pigs" />
+
+</LinearLayout>

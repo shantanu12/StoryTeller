@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f7f7f7"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <include layout="@layout/layout_hint" />
+
+    <TextView
+        android:id="@+id/hint5_textView"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:text="@string/hint5"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="40sp"
+        android:typeface="sans" />
+</LinearLayout>

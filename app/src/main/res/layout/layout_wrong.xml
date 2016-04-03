@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#f7f7f7"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/explanation_imageView"
+        android:layout_width="190dp"
+        android:layout_height="212dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/wrong" />
+
+    <TextView
+        android:id="@+id/explanation_textView"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:text="Well tried, but that was wrong."
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#fc0000"
+        android:textSize="28sp"
+        android:typeface="sans" />
+</LinearLayout>

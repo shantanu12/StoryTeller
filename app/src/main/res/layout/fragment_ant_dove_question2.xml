@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/question2_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="40dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:text="@string/question2"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="40sp"
+        android:typeface="sans" />
+
+    <Button
+        android:id="@+id/question2_correct"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="30dp"
+        android:layout_weight=".10"
+        android:allowUndo="true"
+        android:background="#028482"
+        android:fontFamily="sans-serif-light"
+        android:onClick="correct2"
+        android:text="@string/option2a"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <Button
+        android:id="@+id/question2_wrong1"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="30dp"
+        android:layout_weight=".10"
+        android:allowUndo="true"
+        android:background="#7aba7a"
+        android:fontFamily="sans-serif-light"
+        android:onClick="wrong2"
+        android:text="@string/option2b"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <Button
+        android:id="@+id/question2_wrong2"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight=".10"
+        android:allowUndo="true"
+        android:background="#b76eb8"
+        android:fontFamily="sans-serif-light"
+        android:onClick="wrong2"
+        android:text="@string/option2c"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+</LinearLayout>
