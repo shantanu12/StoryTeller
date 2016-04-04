@@ -13,9 +13,9 @@
         android:layout_marginTop="40dp"
         android:fontFamily="sans-serif-light"
         android:gravity="center"
-        android:text="Congratulations @string/textPersonName!"
-        android:textSize="50sp"
-        android:textColor="#000000" />
+        android:text="Congratulations Name!"
+        android:textColor="#000000"
+        android:textSize="50sp" />
 
     <ImageView
         android:id="@+id/stars_imageView"
