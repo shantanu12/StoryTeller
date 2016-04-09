@@ -24,6 +24,9 @@ public class FinalStarsFragment extends Fragment {
         Bundle data = getArguments();
         int score = data.getInt("score");
         switch (score) {
+            case 0:
+                stars.setVisibility(View.INVISIBLE);
+                break;
             case 1:
                 stars.setImageResource(R.drawable.star1);
                 break;
